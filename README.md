@@ -144,11 +144,8 @@ UNION ALL SELECT 'sellers', count(*) FROM sellers
 UNION ALL SELECT 'geolocation', count(*) FROM geolocation
 UNION ALL SELECT 'product_category_name_translation', count(*) FROM product_category_name_translation;
 ```
-Postgresql (Source)
-![alt text](docs/all_table_postgres.png)
-
-Clickhouse (Destination)
-![alt text](docs/all_table_clickhouse.png)
+![Postgresql (Source)](docs/all_table_postgres.png)
+![Clickhouse (Destination)](docs/all_table_clickhouse.png)
 
 Hasil perbandingan data:
 
